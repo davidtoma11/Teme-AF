@@ -1,6 +1,7 @@
 from collections import defaultdict,deque
 
 class Solution(object):
+    #https://leetcode.com/problems/possible-bipartition/
     def possibleBipartition(self,n,dislikes):
         # Crearea unui graf neorientat
         graph = defaultdict(list)
@@ -30,6 +31,8 @@ class Solution(object):
 
         return True
 
+
+    #https://leetcode.com/problems/course-schedule-ii/
     def courseSchedule(self, numCourses, prerequisites):
         # Initializam un graf si un dictionar pentru a numara gradele de intrare
         graph = {i: [] for i in range(numCourses)}
@@ -61,6 +64,8 @@ class Solution(object):
         else:
             return []
 
+
+    #https://leetcode.com/problems/critical-connections-in-a-network
     def criticalConnections(self, n, connections):
         # Initializam un graf
         graph = defaultdict(list)
@@ -80,6 +85,8 @@ class Solution(object):
         else:
             return critic
 
+
+    #https://leetcode.com/problems/find-eventual-safe-states/
     def eventualSafeNodes(self, graph):
         def isSafe(node):
             # Verificam daca nodul este sigur
@@ -107,6 +114,8 @@ class Solution(object):
 
         return sorted(list(safe_nodes))
 
+
+    #https://leetcode.com/problems/shortest-bridge/
     def shortestBridge(self, grid):
         def findIsland():
             # Funcyie pentru a gasi insula si eticheta fiecare nod din insula
@@ -161,6 +170,8 @@ class Solution(object):
 
         return min_bridge
 
+    
+    #https://leetcode.com/problems/satisfiability-of-equality-equations/
     def equationsPossible(self, equations):
         # Inițializăm o listă pentru a reprezenta grupurile variabilelor
         groups = [i for i in range(26)]
