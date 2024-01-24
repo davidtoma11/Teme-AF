@@ -16,3 +16,13 @@
 - https://www.infoarena.ro/problema/cablaj
 - https://www.infoarena.ro/problema/rusuoaica
 - https://www.infoarena.ro/problema/apm2
+
+----------------------------------------------------------------------
+https://www.infoarena.ro/problema/harta
+https://www.infoarena.ro/problema/cc
+https://www.infoarena.ro/problema/senat
+https://www.infoarena.ro/problema/paznici
+https://leetcode.com/problems/reconstruct-itinerary/description/
+https://leetcode.com/problems/valid-arrangement-of-pairs/
+https://leetcode.com/problems/shortest-path-visiting-all-nodes/
+https://leetcode.com/problems/find-the-shortest-superstring/
